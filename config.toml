@@ -1,0 +1,65 @@
+baseURL = "https://upodcast.ru/"
+
+languagecode = "ru-RU"
+defaultContentLanguage = "ru"
+title = "UPodcast"
+theme = "axiom"
+
+[taxonomies]
+category = "categories"
+
+paginate = 2
+canonifyURLs = false
+summaryLength = 40
+rssLimit = 100
+enableEmoji = true
+enableRobotsTXT = true
+pluralizelisttitles = false
+
+
+[params]
+mainSections = ["news"]
+copyrightYear = 2010
+
+dateFormat = "2 Jan 2006 "
+highlight = "dark"
+
+[params.logo]
+inline = true
+path = "upodcastLogo.svg"
+
+[params.image]
+faviconIco = "favicon.ico"
+faviconAlt = "favicon-32x32.png"
+icon1To1 = "favicon192.png"
+icon2To1 = "favicon384.png"
+
+
+[params.social]
+github = "https://github.com/upodcast"
+twitter = "https://twitter.com/u_podcast"
+facebook = "https://facebook.com/upodcast"
+
+footer = ["twitter", "github", "facebook"]
+
+[menu]
+[[menu.main]]
+url = "/news/"
+name = "Выпуски"
+weight = 1
+
+[[menu.main]]
+url = "/blog/"
+name = "Блог"
+weight = 2
+
+[[menu.main]]
+url = "/about/"
+name = "О подкасте"
+weight = 3
+
+
+[languages]
+[languages."ru"]
+weight = 1
+languageName = "Русский"

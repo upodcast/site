@@ -1,0 +1,11 @@
+[default]
+name = "Дмитрий Поляков"
+uri = "https://dimapolyakov.com/"
+twitter = "dpolyakov"
+image = "https://pbs.twimg.com/profile_images/563091129403314176/XoRqv4wR_200x200.png"
+
+[TERNOX]
+name = "Руслан Саликов"
+uri = "https://salikov.net/"
+twitter = "ternox"
+image = "https://pbs.twimg.com/profile_images/1220487776900190214/X1D3NFGB_400x400.jpg"
