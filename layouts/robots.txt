@@ -1,6 +1,8 @@
-
 User-agent: *
+Disallow:
 
-{{range .Pages}}
-Disallow: {{.RelPermalink}}
-{{end}}
+{{- range where .Data.Pages "Params.private" true }}
+Disallow: {{ .RelPermalink }}
+{{- end }}
+
+Sitemap: {{ "sitemap.xml" | absLangURL }}
