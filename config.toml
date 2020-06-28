@@ -9,18 +9,16 @@ theme = "axiom"
 category = "categories"
 
 paginate = 2
-canonifyURLs = false
+canonifyURLs = true
 summaryLength = 40
 rssLimit = 100
 enableEmoji = true
 enableRobotsTXT = true
 pluralizelisttitles = false
 
-
 [params]
-mainSections = ["news"]
+mainSections = ["blog"]
 copyrightYear = 2010
-
 dateFormat = "2 Jan 2006 "
 highlight = "dark"
 
@@ -42,9 +40,12 @@ facebook = "https://facebook.com/upodcast"
 
 footer = ["twitter", "github", "facebook"]
 
+[params.services]
+analyticsId = "UA-171096637-1"
+
 [menu]
 [[menu.main]]
-url = "/news/"
+url = "/episode/"
 name = "Выпуски"
 weight = 1
 
@@ -53,13 +54,71 @@ url = "/blog/"
 name = "Блог"
 weight = 2
 
-[[menu.main]]
-url = "/about/"
-name = "О подкасте"
+
+[[menu.foot]]
+url = "/episode/"
+name = "Выпуски"
+weight = 1
+
+[[menu.foot]]
+url = "/afterparty/"
+name = "ПослеШоу"
+weight = 2
+
+[[menu.foot]]
+url = "/review/"
+name = "Rev.u"
 weight = 3
 
+[[menu.foot]]
+url = "/uidea/"
+name = "U.Idea"
+weight = 4
+
+[[menu.foot]]
+url = "/blog/"
+name = "Блог"
+weight = 5
 
 [languages]
 [languages."ru"]
 weight = 1
 languageName = "Русский"
+
+[outputs]
+home = ["HTML", "ATOM"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+taxonomyTerm = ["HTML"]
+
+[outputFormats]
+[outputFormats.ATOM]
+name = "ATOM"
+baseName = "feed"
+mediaType = "application/atom+xml"
+
+[mediaTypes]
+[mediaTypes."application/atom+xml"]
+suffixes = ["atom"]
+
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+definitionList = false
+footnote = true
+linkify = false
+strikethrough = false
+table = true
+taskList = false
+typographer = false
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.parser]
+attribute = false
+[markup.highlight]
+codeFences = true
+noClasses = false
+tabWidth = 2
+# lineNos = true
+# lineNumbersInTable = false

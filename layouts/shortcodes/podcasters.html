@@ -1,0 +1,4 @@
+{{- $podcasters := index .Site.Data.author -}}
+{{- with $podcasters}}
+{{- partial "podcasters" (dict "Site" $.Site "podcasters" $podcasters) -}}
+{{- end }}
