@@ -2,7 +2,7 @@
 
 title: "О будущем U.Podcast"
 
-slug: "o_budushhem_u_podcast/2012-11-12-8"
+slug: "o_budushhem_u_podcast/2012-11-13-8"
 
 date: "2012-11-12 21:45:06"
 

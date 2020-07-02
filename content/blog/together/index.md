@@ -2,7 +2,7 @@
 
 title: "Коллективный подкаст. Запись через Skype"
 
-slug: "kollektivnyj_podkast_zapis_cherez_skype/2011-04-03-3"
+slug: "kollektivnyj_podkast_zapis_cherez_skype/2011-04-04-3"
 
 date: "2011-04-03 23:03:44"
 

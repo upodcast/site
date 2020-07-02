@@ -1,13 +1,13 @@
 [DPolyakov]
 name = "Дмитрий Поляков"
-uri = "https://dimapolyakov.com/"
+uri = "https://dimapolyakov.ru/?utm_source=upodcast"
 twitter = "dpolyakov"
 image = "https://pbs.twimg.com/profile_images/563091129403314176/XoRqv4wR_400x400.png"
 about = "Фронтендер, блоггер, отец подкаста :)"
 
 [TERNOX]
 name = "Руслан Саликов"
-uri = "https://salikov.net/"
+uri = "http://salikov.net/"
 twitter = "ternox"
 image = "https://pbs.twimg.com/profile_images/1220487776900190214/X1D3NFGB_400x400.jpg"
 about = "Без него подкаст бы не получился"
